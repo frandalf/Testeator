@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lista_errores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.frandalf.testeator1evaluacin.ListaErrores">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida1"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada1"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador1"
+                android:text="-------------------------------------------------------------------"
+                android:elevation="1dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida2"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida2"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada2"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador2"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida3"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida3"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada3"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador3"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida4"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida4"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada4"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador4"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TV_PreguntaFallida5"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida5"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada5"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador5"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida6"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida6"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada6"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador6"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida7"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida7"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada7"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador7"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida8"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida8"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada8"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador8"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida9"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida9"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada9"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador9"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_PreguntaFallida10"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="5dp"
+                android:visibility="invisible"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Incorrecto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaFallida10"
+                android:textColor="@android:color/holo_red_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:text="Correcto: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_RespuestaAcertada10"
+                android:textColor="@android:color/holo_green_dark"
+                android:paddingBottom="5dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Separador10"
+                android:text="-------------------------------------------------------------------"
+                android:visibility="invisible" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

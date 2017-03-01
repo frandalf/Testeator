@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.frandalf.testeator1evaluacin.Principal">
+
+    <Button
+        android:text="Desarrollo de interfaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BT_DI"
+        android:layout_below="@+id/BT_AD"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Empresa e Iniciativa Emprendedora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BT_DI"
+        android:layout_alignParentStart="true"
+        android:id="@+id/BT_EIE"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="INGLÉS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BT_EIE"
+        android:id="@+id/BT_INGLES"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="PRogramación de Servicios y procesos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BT_INGLES"
+        android:layout_alignParentStart="true"
+        android:id="@+id/BT_PSP"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Programación Multimedia y Móviles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BT_PSP"
+        android:layout_alignParentStart="true"
+        android:id="@+id/BT_PMDM"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Acceso a Datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BT_AD"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Sistemas de gestión empresarial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BT_SGE"
+        android:layout_below="@+id/BT_PMDM"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="By Frandalf - v1.7-2.0b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

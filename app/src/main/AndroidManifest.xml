@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frandalf.testeator1evaluacin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AccesoDatos"
+            android:label="Acceso a Datos" />
+        <activity
+            android:name=".Test"
+            android:label="Responde:" />
+        <activity android:name=".Puntuacion" />
+        <activity
+            android:name=".DesarrolloInterfaces"
+            android:label="Desarrollo de Interfaces" />
+        <activity
+            android:name=".EIE"
+            android:label="Empresa e Iniciativa Emprendedora" />
+        <activity
+            android:name=".PSP"
+            android:label="Programación de Servicios y Procesos" />
+        <activity
+            android:name=".PMDM"
+            android:label="Programación Multimedia y Dispositivos móviles" />
+        <activity
+            android:name=".SGE"
+            android:label="Sistemas de Gestión Empresarial" />
+        <activity android:name=".INGLES" />
+        <activity android:name=".ListaErrores"
+            android:label="Preguntas falladas"></activity>
+    </application>
+
+</manifest>
